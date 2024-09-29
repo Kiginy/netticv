@@ -4,11 +4,11 @@ body {
     margin: 0;
     padding: 20px;
     background: 
-        linear-gradient(to right, rgba(121, 200, 212, 0.8), rgba(103, 129, 126, 0.8)), /* Läpinäkyvä liukuväri */
-        url('lehdet3.jpg'); /* Syksyisiä lehtiä sisältävä taustakuva */
-    background-size: cover; /* Kuva peittää koko alueen */
-    background-position: center; /* Keskitetään taustakuva */
-    background-attachment: fixed; /* Kiinnitetään taustakuva paikoilleen */
+        linear-gradient(to right, rgba(121, 200, 212, 0.8), rgba(103, 129, 126, 0.8)), 
+        url('lehdet3.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
 }
 
 .container {
@@ -27,17 +27,16 @@ h1 {
     color: #333;
 }
 
-/* Flexbox layout esittelytekstille ja kuvalle */
 .content {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    text-align: left; /* Teksti vasemmalle */
+    text-align: left; 
 }
 
 .text {
     flex: 2;
-    margin-right: 20px; /* Tilaa kuvan ja tekstin väliin */
+    margin-right: 20px; 
 }
 
 .images {
@@ -50,7 +49,7 @@ h1 {
 .work-img {
     max-width: 100%;
     margin-bottom: 20px;
-    border-radius: 10px; /* Pyöristetyt kulmat kuville */
+    border-radius: 10px; 
 }
 
 .nav-buttons {
